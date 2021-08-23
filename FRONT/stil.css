@@ -1,0 +1,139 @@
+.glavniDiv
+{
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.obrisi
+{
+    background-color: red;
+    width: 10%;
+    min-width: 50px;
+    text-align: center;
+    color: white;
+    position: relative;;
+    top:0;
+    right:0;
+}
+button
+{
+    
+    background-color: #01579b;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+    padding: 5px;
+    margin-top: 5px;
+   
+}
+
+.FormaUtk
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    padding: 25px;
+    color: #01579b;
+    font-family: Calibri;
+    background-color:white;
+    border-radius: 0 15px 0 0;
+    border-top: 2px solid #003964;
+    border-right: 2px solid #003964;
+
+}
+.FormaDel
+{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    padding: 25px;
+    color: #01579b;
+    font-family: Calibri;
+    background-color:white;
+    border-radius: 0 0 15px 0;
+    border-bottom: 2px solid #003964;
+    border-right: 2px solid #003964;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    
+    float: left;
+    max-width: 20%;
+    min-width: 300px;
+    flex-grow: 1;
+    flex-shrink: 0;
+  
+    
+}
+.divZaUtakmice{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-radius: 10px;
+    color: white;
+    font-family: Calibri;
+    height: 20%;
+    
+}
+.red
+{
+    display: flex;
+    flex-direction: column;    
+}
+.utakmica1,.utakmica2,.utakmica3,.utakmica4,.utakmica5,.utakmica6,.utakmica7,.utakmica8{
+   
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.tabela th,.tabela td{
+    padding: 8px 15px;
+}
+
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    min-width: 400px;
+    color: white;
+    margin-top: 25px 0;
+    border-bottom: 2px solid  #003964;
+    
+}
+[class^="utakmica"]{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border-bottom: 2px solid  #003964;
+
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
+.div2{
+    margin-left: 150px;
+}
+
+.div3{
+    margin-left: 150px;
+}
